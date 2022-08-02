@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('imagenes/WhatsApp\ Image\ 2022-07-09\ at\ 11.55.21\ AM.jpeg') no-repeat; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .box {
+    width: 500px;
+    background: rgba(240, 255, 250, 0.663);
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    color: rgb(29, 35, 25);
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 15px;
+    /* box-shadow: 7px 13px 37px black; */
+  }
+  
+  .box-img {
+    border-radius: 50%;
+  }
+  
+  .box h1 {
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-weight: 100;
+    margin: 30px 0 10px;
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px
+  }
+  
+  .box p {
+    text-align: justify;
+  }
+  
+  .box ul {
+    margin-top: 15px;
+    list-style: none;
+  }
+  
+  .box ul li {
+    display: inline-block;
+  }
+  .box ul li a {
+    color: rgb(215, 82, 82);
+    font-size: 45px;
+    padding: 10px 5px;
+    transition: all .5s ease-in-out;
+    display: block;
+  }
+  
+  .box ul li a:hover {
+    color:#0a37b4;
+    transform: scale(1.3);
+    }
+
+
+
+    .paginacion {
+      margin:20px 0;
+    }
+    
+    .paginacion ul {
+      list-style:none;
+      text-align: center;
+    }
+    
+    .paginacion ul li {
+      display:inline-block;
+      margin-right:20px;
+    }
+    
+    .paginacion ul li a {
+      display:block;
+      padding:10px 20px;
+      color:rgb(199, 68, 68);
+      background:#024959;
+      text-decoration: none;
+    }
+    
+    .paginacion ul li a:hover {
+      background:#000000;
+    }
+    
+    .paginacion ul li .active {
+      background:#000000;
+      font-weight:bold;
+    }

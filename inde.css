@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #fff39c, rgb(255, 201, 85));
+    font-family: "Lato", sans-serif;
+    display: flex;
+    margin: 0;
+    overflow-y: hidden;
+  }
+
+  h1 {
+    letter-spacing: 3px;
+  }
+
+ input{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+} 
+  
+.checkbox {
+    cursor: pointer;
+}
+  .phone {
+      position: relative;
+      top: 200px;
+      left: 400px;
+      border-radius: 40px;
+      height: 800px;
+      width: 800px;
+      box-shadow: 19px 37px rbg(0, 0, 0, 0.30), 15px 12px rbg(0, 0, 0, 0.22);
+      text-decoration: none;
+  }
+  .layer-1 {
+      position: absolute;
+      z-index: 1;
+      height: 150px;
+      width: 150px;
+      background-image: url(/imagenes/030.png);
+      background-size: 110px 110px;
+      background-repeat:no-repeat;
+      bottom: 0;
+      right: 60px;
+      
+      animation-name: charmilio;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+
+  }
+  @keyframes charmilio {
+      0%   {  top:100px;}
+      25%  {  top:-5px;}
+      100% {  top:500px;}
+
+  }
+  .layer-2 {
+      position: absolute;
+      z-index: 2;
+      position: absolute;
+      z-index: 1;
+      height: 150px;
+      width: 80px;
+      background-image: url(/imagenes/019.png);
+      background-size: 110px 110px;
+      background-repeat:no-repeat;
+      bottom: 0;
+      left: 80px;
+
+      animation-name: pikachu;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes pikachu {
+      0%   {  top:0px;}
+      25%  {  top:200px;}
+      50%  {  top:300px;}
+      75%  {  top:500px;}
+      100% {  top:100px;}
+
+  }
+  .layer-3 {
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      right: 730px;
+      margin: 0 auto;
+      width: 300px;
+      height: 620px;
+      background: rgb(106, 213, 255);
+      border-radius: 20px;
+      bottom: 0;
+      z-index: 10;
+      
+  }
+  .layer-4 {
+      position: absolute;
+      z-index: 4;
+      height: 150px;
+      width: 80px;
+      background-image: url(/imagenes/027.png);
+      background-size: 110px 110px;
+      background-repeat:no-repeat;
+      bottom: 0;
+      left: 9px;
+
+      animation-name: bolbasor;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+
+      
+  }
+
+  @keyframes bolbasor{
+      0%   {  top:90px;}
+      25%  {  top:-3px;}
+      100% {  top:400px;}
+
+  }
+  .layer-5 {
+      position: absolute;
+      z-index: 5;
+      height: 550px;
+      width: 200px;
+      background: rgb(177, 233, 255);
+      border-radius: 20px;
+      border-bottom-left-radius: 30px;
+      bottom: 0;
+      right: 500px;
+z-index: 100;
+  }
+  .layer-6 {
+      position: absolute;
+      z-index: 6;
+      height: 230px;
+      width: 80px;
+      background-image: url(/imagenes/080.png);
+      background-size: 110px 110px;
+      background-repeat:no-repeat;
+      bottom: 0;
+      right: 40px;
+
+      animation-name: squitle;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes squitle{
+      0%   {  top:0px;}
+      25%  {  top:200px;}
+      50%  {  top:500px;}
+      75%  {  top:200px;}
+      100% {  top:800px;}
+
+  }
+  .layer-7 {
+      position: absolute;
+      z-index: 7;
+      right: 680px;
+      width: 170px;
+      height: 250px;
+      background:rgb(177, 233, 255);
+      border-radius: 20px;
+      border-bottom-right-radius: 30px;
+      bottom: 0;
+  }
+  .layer-8 {
+      position: absolute;
+      z-index: 8;
+      left: 0;
+      top: 20px;
+      right: 0;
+      margin: 0 auto;
+      width: 100%;
+      height: 130px;
+      background: rgb(255, 36, 36);
+      bottom: 0;
+      border-radius: 20px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      text-align: center;
+      font-size: 25px;
+      opacity: 0.5;
+  }
+  .layer-9 {
+      position: absolute;
+      z-index: 9;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      background: pink;
+      border-bottom-left-radius: 30px;
+      bottom: 0;
+  }
+  .layer-10 {
+      position: absolute;
+      z-index: 10;
+      position: absolute;
+      z-index: 10;
+      right: 0;
+      width: 100px;
+      height: 70px;
+      background: rgb(105, 105, 105);
+      border-bottom-right-radius: 30px;
+      bottom: 0;
+  }
+.zigzag {
+  position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 100%;
+      height: 25px;
+      background: linear-gradient(135deg, #000200 25%, transparent 25%) -17px 0,
+      linear-gradient(-135deg, #ffffff 25%, transparent 25%) -17px 0,
+      linear-gradient(45deg, #19811b00 25%, #a1553c 25%),
+      linear-gradient(-45deg, #25972700 25%, #a1553c 25%);
+      background-size: 35px 35px;
+      border-radius: 20%;
+  }
+input:checked {
+  position: absolute;
+  appearance: none;
+  cursor: pointer;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  counter-increment: game;
+}
+  .total-count::after {
+      content: counter(game);
+  }
